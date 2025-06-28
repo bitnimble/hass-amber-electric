@@ -1,15 +1,16 @@
 {
-    "codeowners": [
-        "@madpilot"
-    ],
-    "config_flow": true,
-    "documentation": "https://www.home-assistant.io/integrations/amberelectric",
-    "domain": "amberelectric",
-    "iot_class": "cloud_polling",
-    "issue_tracker": "https://github.com/madpilot/hass-amber-electric/issues",
-    "name": "Amber Electric",
-    "requirements": [
-        "amberelectric==1.0.3"
-    ],
-    "version": "2.0.0"
+  "domain": "amberelectric",
+  "name": "Amber Electric",
+  "codeowners": [
+    "@bitnimble"
+  ],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/amberelectric",
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "amberelectric"
+  ],
+  "requirements": [
+    "amberelectric==2.0.12"
+  ]
 }
