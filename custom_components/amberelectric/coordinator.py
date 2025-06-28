@@ -103,7 +103,7 @@ class AmberUpdateCoordinator(DataUpdateCoordinator):
             "grid": {},
         }
         try:
-            data = self._api.get_current_prices(self.site_id, next=144)
+            data = self._api.get_current_prices(self.site_id, next=300)
             intervals = [interval.actual_instance for interval in data]
         except ApiException as api_exception:
             raise UpdateFailed("Missing price data, skipping update") from api_exception

@@ -5,6 +5,7 @@
   "codeowners": [
     "@bitnimble"
   ],
+  "dependencies": [],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/amberelectric",
   "iot_class": "cloud_polling",
