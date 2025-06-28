@@ -1,6 +1,7 @@
 {
-  "domain": "amberelectric12h",
-  "name": "Amber Electric 12h",
+  "domain": "amberelectric",
+  "name": "Amber Electric",
+  "version": "1.0.0",
   "codeowners": [
     "@bitnimble"
   ],
